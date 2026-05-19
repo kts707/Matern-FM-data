@@ -1,0 +1,15 @@
+__pycache__/
+PolyFEM_bin
+FloatTetwild_bin
+
+*.sif
+*.zip
+*.tar.gz
+*.vtu
+*.vtm
+*.pvd
+*.obj
+*.json
+*.pt
+*.msh
+*.ply

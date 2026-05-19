@@ -20,11 +20,9 @@ verts, faces = mesh.vertices, mesh.faces
 index = args.idx
 
 vertex_colors = np.zeros_like(verts)
+vertex_colors[:, :] = np.array([0.11, 0.39, 0.89]) # Blue color for the all other vertices
 
-# set the color of all vertices to be [0.11, 0.39, 0.89]
-vertex_colors[:] = (np.array([0.11, 0.39, 0.89]) * 255).astype(np.uint8)
-
-vertex_colors[index] = np.array([255, 0, 0])  # Red color for the specific vertex
+vertex_colors[index] = np.array([1, 0, 0])  # Red color for the selected vertex
 
 viewer.add_mesh(
     vertices=verts,

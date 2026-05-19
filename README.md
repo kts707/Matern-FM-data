@@ -2,7 +2,7 @@
 
 ## What's in this repo?
 
-This codebase contains the data generation scripts for the **datasets of random elastic equilibrium states**, used in [Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes](https://matern-fm.github.io/), by Tianshu Kuai, Arman Maesumi, Daniel Ritchie, and Noam Aigerman, published in ACM Transactions on Graphics (Proceedings of SIGGRAPH 2026).
+This codebase contains the data generation scripts for the **datasets of random elastic equilibrium states**, used in [Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes](https://matern-fm.github.io/), by Tianshu Kuai, Arman Maesumi, Daniel Ritchie, and Noam Aigerman, published in ACM Transactions on Graphics (SIGGRAPH 2026).
 
 If you are looking for scripts to create the SMPL dataset (yoga poses) used in our paper, refer to the instructions [here](https://github.com/ArmanMaesumi/poissonnet/tree/master/smplx_data).
 
@@ -117,7 +117,7 @@ python save_largest_component.py \
 
 ### Use an interactive viewer to extract the reference vertex for alignment
 
-Use [panopti](https://github.com/ArmanMaesumi/panopti) to visualize the mesh in an interactive viewer. Its inspection tool enables clicking on the mesh to see the vertex indices of a face. Find the index of the vertex at one end of the mesh (e.g., the leftmost vertex on Stanford Bunny's nose), then run the alignment script using the chosen vertex index and the axis to be aligned with the largest principal component. See [panopti's documentation](https://armanmaesumi.github.io/panopti/getting_started/) for how to run and use the viewer. 
+Use [panopti](https://github.com/ArmanMaesumi/panopti) to visualize the mesh in an interactive viewer. Its inspection tool enables clicking on the mesh to see the vertex indices of a face. Find the index of the vertex at one end of the mesh (e.g., the leftmost vertex on Stanford Bunny's nose) using the `Inspect Vertices/Faces` tool, then run the alignment script using the chosen vertex index and the axis to be aligned with the largest principal component. See [panopti's documentation](https://armanmaesumi.github.io/panopti/getting_started/) for how to run and use the viewer. 
 
 ```
 # start the server

@@ -2,7 +2,7 @@
 
 ## What's in this repo?
 
-This codebase contains the data generation scripts for the **datasets of random elastic equilibrium states**, used in [Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes](link), by Tianshu Kuai, Arman Maesumi, Daniel Ritchie, and Noam Aigerman, published in ACM Transactions on Graphics (Proceedings of SIGGRAPH 2026).
+This codebase contains the data generation scripts for the **datasets of random elastic equilibrium states**, used in [Matérn Noise for Triangulation-Agnostic Flow Matching on Meshes](https://matern-fm.github.io/), by Tianshu Kuai, Arman Maesumi, Daniel Ritchie, and Noam Aigerman, published in ACM Transactions on Graphics (Proceedings of SIGGRAPH 2026).
 
 If you are looking for scripts to create the SMPL dataset (yoga poses) used in our paper, refer to the instructions [here](https://github.com/ArmanMaesumi/poissonnet/tree/master/smplx_data).
 

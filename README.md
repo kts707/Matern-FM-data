@@ -7,7 +7,7 @@ This codebase contains the data generation scripts for the **datasets of random 
 If you are looking for scripts to create the SMPL dataset (yoga poses) used in our paper, refer to the instructions [here](https://github.com/ArmanMaesumi/poissonnet/tree/master/smplx_data).
 
 ## Our preprocessed datasets
-Our preprocessed datasets can be downloaded from [here](https://udemontreal-my.sharepoint.com/:f:/g/personal/tianshu_kuai_umontreal_ca/IgDTIysjX7jBQa3RzqXL1TsBAePI1R2l0EUxTkIKThh3CKE?e=bCMkX2). See our [repo](https://github.com/kts707/matern-fm#Datasets) and [paper](link) for more details. 
+Our preprocessed datasets can be downloaded from [here](https://udemontreal-my.sharepoint.com/:f:/g/personal/tianshu_kuai_umontreal_ca/IgDTIysjX7jBQa3RzqXL1TsBAePI1R2l0EUxTkIKThh3CKE?e=bCMkX2). See our [repo](https://github.com/kts707/matern-fm#Datasets) and [paper](https://arxiv.org/abs/2605.19305) for more details. 
 
 ## Installation
 
